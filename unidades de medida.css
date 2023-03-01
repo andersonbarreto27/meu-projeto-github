@@ -1,0 +1,25 @@
+
+/*unidade de medidas\*
+
+/*absolutas\*
+
+/*px = (pixels)\* pixels são equivalentes a 1/100 de polegada, e 1 polegada é igual á 2,54 cm, que divido por 100 vai ser equivalente a
+0,254 mm, que é igual a 1 pixels.
+
+/*relativas\*
+
+/*(%) A porcentagem é relativa ao pixels, ou seja se eu aumentar o meu pixels e estiver usando a porcentagem,conferme eu almenter o meu
+pixels a porcentagem vai estar relacionada ao pixels e tambem vai almentar,exemplo=(16px e 100% são iguais, mas 16px e 50% ja é = 8px.)\*
+
+/*(vw) é equivalente a 1% da largura da minha tela.\*
+/*(vh) é equivalente a 1% da altura da minha tela.\*  
+/*ambos o vw ou vh são adptaveis a qualquer tipo de tela\*
+
+/*(em) é uma unidade de medida relativa ao pai.\*
+/*(rem) é uma unidade de medida relativa a raiz,ou seja ele vai ser relativo aos primeiros conteudos do meu site.\*
+
+
+
+
+
+

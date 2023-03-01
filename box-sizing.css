@@ -1,0 +1,3 @@
+/*(box-sizing) = content-box: vai somando os valores do tamanho dos meus comandos, fazendo com que o meu elemento creça com os
+ valores somados.
+               = border-box: vai somando os valores dos meus comandos,mas a caixa permanece do mesmo tamanho.

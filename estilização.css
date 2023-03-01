@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+.caixa-principal {
+
+    width: 100vw;
+    height: 100vh;
+
+
+
+}
+
+.caixa-esquerda {
+    display: inline-block;
+    width: 50%;
+    margin-top: 381px;
+    margin-left: 136px;
+    margin-bottom: 123px;
+
+
+}
+
+.caixa-direita {
+    display: inline-block;
+    position: absolute;
+    background:rgba(93, 93, 125, 0.16);
+    mix-blend-mode: normal;
+    height: 100vh;
+    width: 50vw;
+    padding: 40px;
+    
+    
+
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin-bottom: 15px;
+
+
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    width: 550px;
+    
+}
+
+button {
+    position: absolute;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    
+
+    color: #FFFFFF;
+
+}
+button:hover {
+    opacity: .8;
+}
+button:active {
+    opacity: .5;
+}
+
+header {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin: 50px;
+    word-spacing: 20px;
+    margin-top: 24px;
+    cursor: pointer;
+
+
+}
+img{
+position: relative;
+top: 100px;
+right: 140px;
+
+
+}
+a:nth-child(3) {
+    opacity: 0.4;
+ 
+}
+a:hover {
+    opacity: .4;
+}
+a:active{
+    opacity: .8;
+}
+
+@media screen and (max-width: 900px){
+    .caixa-esquerda{
+
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+}
+}
+.caixa-direita{
+display: block;
+height: auto;
+width: 100%;
+position: static;
+
+
+}
+img{
+    position: static;
+    max-width: 90%;
+
+
+
+}
+header {
+display: none;
+
+
+}
+h1{
+    font-weight: 400;
+    font-size: 36px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+
+
+}
+p{
+
+margin: 15px 40px;
+width: auto;
+text-align: center;
+line-height: 24px;
+font-size: 14px;
+
+}
+button{
+    margin-left: 60px;
+}
+

@@ -1,0 +1,167 @@
+<!--css parte 1-->
+
+<!--(CSS) com o css,eu dou vida ao meu site-->
+
+<!--(tag style) A tag style, é uma forma de conseguir estilizar o meu site junto com o html,no mesmo arquivo,más eu posso criar tambem um arquivo
+     separado só para o css.-->
+
+<!--Para mim conseguir abrir um arquivo css separado,eu presizo ir nas configurações do meu site(head) e acressentar a tag (link) após
+    a tag link eu coloco (rel=relacionamento) e dpois do rel (stylesheet) a minha folha de estilo,e após o stylesheet eu coloco o (href)
+que vai procurar onde esta o meu arquivo e me direcionar até ele.-->
+
+<!--(color=cor)
+
+(background=cor de fundo)
+
+(font-size=tamanho da letra)
+
+(border-color=cor da borda)-->
+
+<!--seletores css=selecionador (*) a estrelinha é responsavel de selecionar tudo na minha tela,quando eu fizer uma aplicação e querer que faça na 
+tela inteira eu uso ela.-->
+
+<!--(id=indentificação unica) para usar o id no css,eu tenho q usar o (#) e depois colocar o nome do id, para o css interder que é um id.-->
+
+<!--(class) a class é diferente do id,porque com ela eu posso configurar varios elementos com mesmo nome,e para iniciar o uso da class eu uso
+(.) e o nome da class que eu dei no html,assim eu consigo fazer as minhas aplicações como eu quiser.-->
+
+<!--(folha de estilo em cascata) o css sempre vai entender as aplicações em movimento de cascata,ou seja sempre o ultimo comando que foi dado 
+para ele,exemplo= seu tiver com duas aplicações, o css sempre ira respeitar a segunda aplicação.-->
+
+<!--(rgb(00,333,00)) rgb é a mistura das cores que eu quiser,conforme vou colocando a quantia e alternando os valores que estão dentro dos 
+     parenteses as cores vão mudando e chegando na cor escolida.(max 255 min 00) ou (max ff min 00)-->
+
+<!--css parte 2-->
+
+<!--(!important) Com o important eu consigo priorisar um comando sem que o css respeite o feito estilo em cascata,assim quando
+    eu usar o important ,o css ira obedecer o comando do important.  -->
+
+<!--position(static) O position estatic é padrão,ele não se move na tela,apenas fica parado e não aceita outros comandos.-->
+<!--position(fixed) O position fixed ele fica fixo na tela,se eu rolar a pagina ele não se move,á não ser que eu queria,se eu quizer posso
+    movimentar ele para onde eu quiser,ele tambem flutua na tela,se eu tiver outro elemento que não seja fixed,o elemento ficara atrás
+     do fixed é uma propriedade dele.-->
+<!--position(sticky) O position sticky é como se fosse um adesivo,ele fica fixado sómente aonde eu determinar.-->
+<!--position(relative) O position relative se movimentara referente a posição inicial dele ou seja toda vez que eu mexer ele a minha 
+    referencia da sua posição, vai ser o seu ponto inicial. -->
+<!--position(absolut) O position absolut se refere a algum elemento ou a pagina,(se não tiver pai ou o pai for static,ele ira se 
+        posicionar referente a pagina,mas se o pai não for static e qualquer outro position ele se refenciara o seu posicionamento ao pai.)-->
+
+<!--(pseudo elementos) É uma forma de estilizar no css parte dos elementos individualmente ou seja pequenos detales.-->
+<!--exemplo (input:: e selecionar pseudo que eu quero,assim oque for selecionado vai ser estilizado.)-->
+<!--exemplo (p:: seleciono = first-letter - e consigo mudar a cor da primeira letra. )-->
+<!--exemplo (p:: seleciono = first-line - e consigo mudar a cor da linha inteira .) -->
+<!--exemplo (p:: seleciono = before-content - consigo colocar aguma coisa antes do meu elemento) .-->
+<!--exemplo (p:: seleciono = after-content - consigo colocar aguma coisa depois do meu elemento) . E ambos posso colocar tambem (emoticon) 
+figurinhas copiadas do google .-->
+
+<!--(pseudo class)-->
+<!--(active) Quando o elemento esta ativo ou seja quando eu estiver precionando o elemento(exemplo apertando um botão).-->
+<!--(visited) Seleciona o elemento que ja foi visitado (exemplo -se eu ja cliquei naquele elemento,ele ficara mais escuru.) -->
+<!--(hover) Quando o mause passar encima do elemento,vai dar o efeito de que o mause passou(exemplo-quando o mause passar,o emelemento muda a cor)-->
+<!--(checked) Usado em radio/checkbox/select(exemplo-quando estiver relacionado a algum desses e o input for clicado o tamanho ficara maior etc).-->
+<!--(disabled) O elemento selecionado ficara desabilitado (exemplo-um input ou um button,não ira funcionar)-->
+<!--(enabled) O elemento selecionado ficara abilitado ou seja funcionando.-->
+<!--(focus) é aplicado quando o elemento recebe foco (exemplo-quando eu focar ou clicar no elemento ele muda a borda de cor etc ..) -->
+<!--(read-only) Seleciona o input ou texto que são apenas sleituras. -->
+<!--(empty) elemento que não tem filho (exemplo-se tiver conteudo dentro da caixa ficara uma cor,mas se eu tirar o conteudo fica outra cor.)-->
+<!--(first -child) Ele selecionara o primeiro filho para aplicar o comando(exeplo-se eu tenho uma lista,ocomando so vai se aplicar na primeira linha.)-->
+<!--(first-of-type) Ele selecionara o primeiro da sua especie para aplicar o codigo(exemplo-eu tenho dois paragrafos,só o primeiro sera estilizado.)-->
+<!--(last-child) ele selecionara o ultimo filho para aplicar o efeito do godigo.-->
+<!--(last-of-type) ele selecionara o ultimo da sua especie para aplicar a estilização do codego.-->
+<!--(not) Ele estiliza todos os elementos,menos o elemento que estiver dentro do () parenteses.-->
+<!--(nht-child) Ele seleciona exatamento o elemento que eu quero,dentro do paranteses () eu coloco o  numero do elemento e o comando é aplicado.-->
+<!--(nht-last-child) Ele seleciona exatamento o elemento que eu quero,escolhendo o numero dentro do () só que de trás para frente ou de baixo para
+cima.-->
+<!-- (responsividade) é uma tela adaptavel a todas as formas de comunicação,(televisão,ceçular,tablet etc ..)-->
+<!--(@media) Com esse comando, eu baseio o efeito do codigo no tamanho da minha tela ou seja, se eu usar(exemplo-@media(max-width :600px) com uma cor,
+quando eu rolar a tela e chegar no limite que eu determinei (600px) na tela a cor da minha div muda,se era azul muda para a outra cor.(min-width) é
+o mesmo efeito so que ao contrario começa com o minimo.-->
+
+<!--(complementos)-->
+<!--(all) para todos os dispositivos.-->
+<!--(braille) para dispositivos tateis.-->
+<!--(embossed) para dispositivos que imprimem em braile.-->
+<!--(handheld) para depositivos portateis,geralmente com telas pequenas e banda limitada.-->
+<!--(print) para impressão em papel.-->
+<!--(projection) para apresentações em pps-->
+<!--(screen) para monitores ou despositivos com telas coloridas e telas adequadas.-->
+<!---(speech) para sintetizadores de voz.As ccs 2 tem uma especificação de css chamada aural,aonde podemos formatar a voz dos sintetizadors.-->
+
+<!--orientações-->
+<!--portrait= altura maior que a largura.-->
+<!--landscape= largura maior que altura.-->
+<!--(and é = E) com o (and ) eu consigo colocar 2 ou mais condicões de usar o meu @media (exemplo=@media screen and (max widht:600px) 
+            and (orentation: landscape)) coloquei duas condições usando o (E).-->
+
+<!--(ferramenta chamada (calc))-->
+<!--(calc é uma ferramenta que eu posso fazer cauculos estantanios com ela(exemplo-a altura da minha div, seja a tela inteira menos 200px
+        height=altura ou seja height:calc(100vh - 200px)) a tela inteira menos 200px e o calc vai fazer o cauculo completo para mim,dando o 
+        resultado da tela inteira menos 200 px,ou height:calc((100vh - 200px)/ 2) )= divido por dois) ou seja minha tela inteira de 100vh - 200px
+     dividido por dois,e o calc ira me trazer o resultado exato desse cauculo.-->
+    <!--complementos (-)= menos (+)= mais (/)= dividir (*)= vezes . -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilização.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>projeto-top</title>
+</head>
+
+<body>
+    <div class="caixa-principal">
+        <section class="caixa-esquerda">
+            <h1>Easy Shopping<br>
+                Via Mobile</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Donec lorem justo, sollicitudin vel ultricies sed,
+                eleifend nec metus. Etiam vitae pellentesque dolor. </p>
+            <button>Get Started</button>
+        </section>
+
+        <section class="caixa-direita">
+            <header>
+                <a>Home<a>
+                        <a>Work</a>
+                        <a>About</a>
+                        <a>Contact</a>
+            </header>
+
+            <img src="./Illustration-3-3.png" alt="girl">
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

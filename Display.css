@@ -1,0 +1,14 @@
+/*display/*
+
+
+(block) = A linha inteira é do display block,ele não permite que nenhum outro elemento ultrapasse a linha dele,aquele espaço e somente
+do display block,ele me permite escolher (altura e largura)do meu elemento,ele me permite colocar margin,e se eu não definir a altura
+ do meu elemento,ele se adpta altomaticamento com o meu conteudo.
+
+ (inline) = Todos os meus componentes ficaram em linha um do lado do outro,más o inline não permite que eu escolha a (altura ou largura)
+ dos meus elementos,
+ eles sempre se adptarão ao conteudo,ele tambem ignora valores de margens (encima e embaixo)da minha tela,ele só respeita margens dos 
+ lados do meu elemento.
+
+ (inline-block) = Todos os compontes na mesma linha,mas eu consigo efetuar todas as caracteristicas que o  block possui,
+ (colocar,altura,largura e margin nos meus elementos).
